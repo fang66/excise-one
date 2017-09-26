@@ -1,0 +1,135 @@
+body {
+  width: 100%;
+  position: absolute;
+  top: 0;
+  bottom: 0;
+  background: #EEEEEE;
+  display: -webkit-flex;
+  -webkit-flex-direction: column; }
+
+.header {
+  height: .44rem;
+  font-size: .2rem;
+  text-align: center;
+  background: #fff; }
+  .header h1 {
+    line-height: .44rem;
+    font-weight: normal;
+    font-size: .2rem; }
+  .header .back {
+    position: absolute;
+    left: .1rem;
+    top: .1rem;
+    color: #37BB9B; }
+    .header .back i {
+      font-size: .28rem; }
+
+.section {
+  flex: 1;
+  overflow-y: scroll; }
+  .section .banner {
+    height: 1.9rem;
+    background: url(../images/banner/banner.gif) no-repeat;
+    background-size: 100% 100%;
+    padding-top: .19rem;
+    position: relative; }
+    .section .banner .good {
+      position: absolute;
+      left: .15rem;
+      top: .05rem;
+      display: flex;
+      line-height: .3rem;
+      color: #fff; }
+      .section .banner .good span {
+        padding-left: .05rem; }
+    .section .banner .zixun {
+      position: absolute;
+      right: .15rem;
+      top: .05rem;
+      display: flex;
+      color: #fff; }
+    .section .banner .img {
+      width: .9rem;
+      height: .9rem;
+      margin: 0 auto;
+      border-radius: 100%;
+      overflow: hidden; }
+      .section .banner .img img {
+        display: block;
+        width: 100%;
+        height: 100%; }
+    .section .banner h3, .section .banner p {
+      text-align: center;
+      color: #fff; }
+    .section .banner h3 {
+      padding-top: .19rem; }
+    .section .banner p {
+      padding-top: .13rem; }
+  .section .list {
+    background: #fff;
+    display: flex; }
+    .section .list > li {
+      flex-grow: 1;
+      width: 50%;
+      text-align: center;
+      font-size: .16rem; }
+      .section .list > li .top {
+        width: .65rem;
+        height: .65rem;
+        background: #FB6D51;
+        color: #fff;
+        margin: .13rem auto 0;
+        border-radius: 50%;
+        text-align: center;
+        line-height: .65rem;
+        font-size: .4rem; }
+      .section .list > li span {
+        margin: 0 auto;
+        line-height: .3rem; }
+  .section h2 {
+    height: .32rem;
+    line-height: .32rem;
+    font-size: .14rem;
+    font-weight: normal; }
+  .section .article {
+    width: 100%;
+    background: #fff; }
+    .section .article > li {
+      height: .5rem;
+      display: flex;
+      line-height: .5rem;
+      border-bottom: 1px solid #ccc;
+      font-size: .16rem; }
+      .section .article > li p {
+        flex-grow: 4; }
+      .section .article > li span {
+        flex-grow: 1; }
+        .section .article > li span em {
+          display: inline-block;
+          width: .13rem;
+          height: .13rem;
+          border-radius: 50%;
+          background: #FF4B4B;
+          margin-right: .05rem; }
+
+.footer {
+  height: .5rem; }
+  .footer .btn {
+    display: flex;
+    height: .5rem; }
+    .footer .btn > li {
+      flex-grow: 1;
+      width: 50%;
+      font-size: .16rem;
+      line-height: .5rem;
+      text-align: center; }
+      .footer .btn > li span {
+        padding-left: .05rem; }
+      .footer .btn > li:first-child {
+        background: #37BB9B;
+        color: #fff; }
+      .footer .btn > li:last-child {
+        background: #fff;
+        color: #37BB9B; }
+
+/*# sourceMappingURL=style.css.map */
